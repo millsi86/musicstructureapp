@@ -72,6 +72,7 @@ public class PlaylistsActivity extends AppCompatActivity implements View.OnClick
 
         if (nextActivity != null) {
             startActivity(nextActivity);
+            finish();
         }
 
     }

@@ -72,6 +72,7 @@ public class GenresActivity extends AppCompatActivity implements View.OnClickLis
 
         if (nextActivity != null) {
             startActivity(nextActivity);
+            finish();
         }
 
     }

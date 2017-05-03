@@ -72,6 +72,7 @@ public class ArtistsActivity extends AppCompatActivity implements View.OnClickLi
 
         if (nextActivity != null) {
             startActivity(nextActivity);
+            finish();
         }
 
     }
