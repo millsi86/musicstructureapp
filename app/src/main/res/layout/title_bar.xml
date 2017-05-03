@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/layout_margin"
+        android:paddingTop="@dimen/layout_margin"
+        android:text="@string/app_name" />
+
+    <HorizontalScrollView
+        android:id="@+id/MenuScrollBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/title"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/albums"
+                style="@style/ScrollButton"
+                android:text="@string/albums" />
+
+            <Button
+                android:id="@+id/playlists"
+                style="@style/ScrollButton"
+                android:text="@string/playlists" />
+
+            <Button
+                android:id="@+id/artists"
+                style="@style/ScrollButton"
+                android:text="@string/artists" />
+
+            <Button
+                android:id="@+id/songs"
+                style="@style/ScrollButton"
+                android:text="@string/songs" />
+
+            <Button
+                android:id="@+id/genres"
+                style="@style/ScrollButton"
+                android:text="@string/genres" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

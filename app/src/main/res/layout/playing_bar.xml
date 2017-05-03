@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/LayoutMargins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/playing"
+            style="@style/playingControlIcons"
+            android:contentDescription="@string/now_playing"
+            android:src="@drawable/playing" />
+
+        <TextView
+            android:id="@+id/now_playing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/layout_margin"
+            android:paddingRight="@dimen/layout_margin"
+            android:text="@string/playBarDummyText" />
+
+        <ImageView
+            android:id="@+id/previous_track"
+            style="@style/playingControlIcons"
+            android:contentDescription="@string/rewind"
+            android:src="@drawable/double_arrow" />
+
+        <ImageView
+            android:id="@+id/play"
+            style="@style/playingControlIcons"
+            android:contentDescription="@string/play"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/next_track"
+            style="@style/playingControlIcons"
+            android:contentDescription="@string/fastforward"
+            android:rotation="180"
+            android:src="@drawable/double_arrow" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

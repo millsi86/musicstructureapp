@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Music Library</string>
+    <string name="now_playing">Now Playing Screen Icon</string>
+    <string name="rewind">Previous Song Icon</string>
+    <string name="play">Play Song Icon</string>
+    <string name="fastforward">Next Song Icon</string>
+    <string name="albums">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="genres">Genres</string>
+    <string name="playBarDummyText">Artist and Song Details</string>
+    <string name="albumsText">This is the starting page of the app and will have a vertical scrolled tiled view of the albums stored on the device.
+        If any of the album tiles are selected then this will navigate to the album page. All of the albums pages will have the same structure but will call
+        different source data depending on the user selection. The user can also select one of the buttons at the top of the screen to change the filter
+        type to something more suitable and this will re-organise the music display</string>
+    <string name="playlistsText">This will have the same layout and navigation as the Albums page but organised by user Playlists instead. There will
+        be a button to a new screen to create a new playlist and assign all of the required details for the new playlist</string>
+    <string name="artistsText">This will have the same layout and navigation as the Albums page but organised by Artist name</string>
+    <string name="songsText">This will have the same layout and navigation as the Albums page but organised by Song name</string>
+    <string name="genresText">This will have the same layout and navigation as the Albums page but organised by Genre</string>
+    <string name="nowPlayingText">Screen will contain Album cover / Playlist Image / Artist Image etc… along with a scrolling view below of the tracks in the
+        list for the user to select the track that they want to listen to. There will also be a shuffle button to randomise the play along with another button
+        that will select a single \'run through\' of the list of an infinite repeat until the user intervenes. The bar at the bottom has been modified to re-use
+        the icons from the previous screen to keep some consistancy while changing due to the different screen layout.</string>
+
+</resources>
